@@ -1,0 +1,232 @@
+{
+  "data_structure_for_your_current_data": {
+    "organization_name": "Your Company Name",
+    "industry": "Your Industry",
+    "data_period": "7 days (Week of [dates])",
+    
+    "email_statistics": {
+      "total_emails_received": 15000,
+      "email_classification": {
+        "malicious": 247,
+        "warning": 423,
+        "spam": 1832,
+        "no_action_safe": 12498
+      },
+      "malicious_percentage": 1.65,
+      "warning_percentage": 2.82,
+      "spam_percentage": 12.21
+    },
+    
+    "department_targeting": {
+      "most_targeted_departments": [
+        {
+          "department": "Finance",
+          "malicious_received": 104,
+          "warning_received": 89,
+          "spam_received": 234,
+          "percentage_of_total_malicious": 42.1
+        },
+        {
+          "department": "HR",
+          "malicious_received": 64,
+          "warning_received": 127,
+          "spam_received": 412,
+          "percentage_of_total_malicious": 25.9
+        },
+        {
+          "department": "IT",
+          "malicious_received": 32,
+          "warning_received": 78,
+          "spam_received": 189,
+          "percentage_of_total_malicious": 13.0
+        }
+      ]
+    },
+    
+    "top_malicious_senders": {
+      "top_10_sender_emails": [
+        {
+          "email": "noreply@suspicious-domain.com",
+          "malicious_count": 23,
+          "threat_type": "phishing"
+        },
+        {
+          "email": "admin@fake-company.net",
+          "malicious_count": 19,
+          "threat_type": "BEC"
+        },
+        {
+          "email": "support@lookalike-vendor.com",
+          "malicious_count": 15,
+          "threat_type": "vendor_impersonation"
+        }
+      ],
+      "top_sender_domains": [
+        {
+          "domain": "suspicious-domain.com",
+          "total_malicious": 45
+        },
+        {
+          "domain": "fake-company.net",
+          "total_malicious": 38
+        }
+      ]
+    },
+    
+    "authentication_status": {
+      "dmarc_pass_rate": 88.3,
+      "spf_pass_rate": 92.7,
+      "dkim_pass_rate": 91.8,
+      "authentication_failures": 743,
+      "your_domain_dmarc_status": "not_configured"
+    },
+    
+    "malicious_email_types": {
+      "threat_breakdown": [
+        {
+          "type": "Phishing",
+          "count": 142,
+          "percentage": 57.5,
+          "primary_target": "credentials"
+        },
+        {
+          "type": "BEC/CEO Fraud",
+          "count": 58,
+          "percentage": 23.5,
+          "primary_target": "wire_transfer"
+        },
+        {
+          "type": "Malware/Ransomware",
+          "count": 31,
+          "percentage": 12.5,
+          "primary_target": "system_compromise"
+        },
+        {
+          "type": "Spam/Scam",
+          "count": 16,
+          "percentage": 6.5,
+          "primary_target": "time_waste"
+        }
+      ],
+      "attachment_types_detected": [
+        {
+          "extension": ".pdf",
+          "malicious_count": 12
+        },
+        {
+          "extension": ".docx",
+          "malicious_count": 8
+        },
+        {
+          "extension": ".zip",
+          "malicious_count": 11
+        }
+      ]
+    },
+    
+    "additional_context": {
+      "existing_email_security": "basic/advanced",
+      "recent_incidents": "any major incidents in past week",
+      "current_challenges": ["specific issues you're facing"],
+      "compliance_requirements": ["CERT-In", "DPDP Act", "Industry-specific"]
+    }
+  },
+  
+  "example_with_real_data": {
+    "organization_name": "ABC Manufacturing Ltd",
+    "industry": "Manufacturing",
+    "data_period": "7 days (March 17-23, 2025)",
+    
+    "email_statistics": {
+      "total_emails_received": 18543,
+      "email_classification": {
+        "malicious": 312,
+        "warning": 567,
+        "spam": 2341,
+        "no_action_safe": 15323
+      },
+      "malicious_percentage": 1.68,
+      "warning_percentage": 3.06,
+      "spam_percentage": 12.62
+    },
+    
+    "department_targeting": {
+      "most_targeted_departments": [
+        {
+          "department": "Finance",
+          "malicious_received": 134,
+          "warning_received": 112,
+          "spam_received": 456,
+          "percentage_of_total_malicious": 42.9
+        },
+        {
+          "department": "Procurement",
+          "malicious_received": 89,
+          "warning_received": 234,
+          "spam_received": 567,
+          "percentage_of_total_malicious": 28.5
+        },
+        {
+          "department": "HR",
+          "malicious_received": 56,
+          "warning_received": 89,
+          "spam_received": 234,
+          "percentage_of_total_malicious": 17.9
+        }
+      ]
+    },
+    
+    "top_malicious_senders": {
+      "top_10_sender_emails": [
+        {
+          "email": "invoice@fake-supplier.com",
+          "malicious_count": 34,
+          "threat_type": "invoice_fraud"
+        },
+        {
+          "email": "ceo@yourcompany-fake.com",
+          "malicious_count": 28,
+          "threat_type": "CEO_impersonation"
+        },
+        {
+          "email": "support@tech-vendor-fake.net",
+          "malicious_count": 23,
+          "threat_type": "vendor_impersonation"
+        }
+      ]
+    },
+    
+    "authentication_status": {
+      "dmarc_pass_rate": 85.2,
+      "spf_pass_rate": 89.4,
+      "dkim_pass_rate": 87.9,
+      "authentication_failures": 892,
+      "your_domain_dmarc_status": "monitoring_only"
+    },
+    
+    "malicious_email_types": {
+      "threat_breakdown": [
+        {
+          "type": "Invoice/Payment Fraud",
+          "count": 134,
+          "percentage": 42.9
+        },
+        {
+          "type": "Phishing",
+          "count": 89,
+          "percentage": 28.5
+        },
+        {
+          "type": "Malware",
+          "count": 56,
+          "percentage": 17.9
+        },
+        {
+          "type": "Spam",
+          "count": 33,
+          "percentage": 10.6
+        }
+      ]
+    }
+  }
+}

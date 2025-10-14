@@ -1,0 +1,166 @@
+{
+  "scenario_1": {
+    "organization_name": "TechCorp Industries Pvt Ltd",
+    "reporting_week": "March 17-23, 2025",
+    "vendor_compromises": [
+      {
+        "domain": "reliable-logistics.co.in",
+        "threats_this_week": 127,
+        "threats_last_week": 3,
+        "is_known_vendor": true
+      }
+    ],
+    "department_targeting": [
+      {
+        "department": "Accounts Payable",
+        "threat_type": "Invoice Fraud/BEC",
+        "count": 89,
+        "percentage_of_total": 48,
+        "financial_risk": "₹52.3 Lakhs"
+      }
+    ],
+    "new_malware_vectors": [
+      {
+        "file_type": ".iso",
+        "detections": 23,
+        "currently_blocked": false
+      },
+      {
+        "file_type": ".img",
+        "detections": 18,
+        "currently_blocked": false
+      }
+    ]
+  },
+  
+  "scenario_2": {
+    "organization_name": "Global Manufacturing Corp",
+    "reporting_week": "March 24-30, 2025",
+    "vendor_compromises": [
+      {
+        "domain": "trusted-supplier.com",
+        "threats_this_week": 234,
+        "threats_last_week": 4,
+        "is_known_vendor": true
+      }
+    ],
+    "department_targeting": [
+      {
+        "department": "Finance",
+        "threat_type": "CEO Impersonation/Wire Transfer",
+        "count": 76,
+        "percentage_of_total": 58,
+        "financial_risk": "₹1.2 Crores"
+      }
+    ],
+    "new_malware_vectors": [
+      {
+        "file_type": ".rar",
+        "detections": 34,
+        "currently_blocked": false
+      },
+      {
+        "file_type": ".7z",
+        "detections": 28,
+        "currently_blocked": false
+      }
+    ]
+  },
+  
+  "scenario_3": {
+    "organization_name": "InfoTech Solutions Ltd",
+    "reporting_week": "April 1-7, 2025",
+    "vendor_compromises": [
+      {
+        "domain": "it-services-partner.net",
+        "threats_this_week": 189,
+        "threats_last_week": 5,
+        "is_known_vendor": true
+      }
+    ],
+    "department_targeting": [
+      {
+        "department": "Human Resources",
+        "threat_type": "Phishing/Credential Harvesting",
+        "count": 94,
+        "percentage_of_total": 67,
+        "financial_risk": "Employee PII at risk"
+      }
+    ],
+    "new_malware_vectors": [
+      {
+        "file_type": ".vhd",
+        "detections": 31,
+        "currently_blocked": false
+      }
+    ]
+  },
+  
+  "scenario_4": {
+    "organization_name": "Retail Chain Networks",
+    "reporting_week": "April 8-14, 2025",
+    "vendor_compromises": [
+      {
+        "domain": "logistics-express.in",
+        "threats_this_week": 145,
+        "threats_last_week": 2,
+        "is_known_vendor": true
+      }
+    ],
+    "department_targeting": [
+      {
+        "department": "Procurement",
+        "threat_type": "Vendor Payment Fraud",
+        "count": 82,
+        "percentage_of_total": 54,
+        "financial_risk": "₹89 Lakhs"
+      }
+    ],
+    "new_malware_vectors": [
+      {
+        "file_type": ".cab",
+        "detections": 26,
+        "currently_blocked": false
+      },
+      {
+        "file_type": ".dmg",
+        "detections": 19,
+        "currently_blocked": false
+      }
+    ]
+  },
+  
+  "scenario_5": {
+    "organization_name": "Healthcare Systems Pvt Ltd",
+    "reporting_week": "April 15-21, 2025",
+    "vendor_compromises": [
+      {
+        "domain": "medical-supplies.com",
+        "threats_this_week": 267,
+        "threats_last_week": 7,
+        "is_known_vendor": true
+      }
+    ],
+    "department_targeting": [
+      {
+        "department": "IT Support",
+        "threat_type": "Ransomware/Malware",
+        "count": 112,
+        "percentage_of_total": 71,
+        "financial_risk": "Critical system downtime"
+      }
+    ],
+    "new_malware_vectors": [
+      {
+        "file_type": ".vmdk",
+        "detections": 42,
+        "currently_blocked": false
+      },
+      {
+        "file_type": ".vdi",
+        "detections": 35,
+        "currently_blocked": false
+      }
+    ]
+  }
+}

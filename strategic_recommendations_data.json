@@ -1,0 +1,266 @@
+{
+  "comprehensive_data_structure": {
+    "organization_name": "Company Name",
+    "industry": "Financial/Healthcare/Manufacturing/Retail/Technology",
+    "size": "SMB/Enterprise/Multinational",
+    "data_period": "7 days (e.g., Week of March 17-23, 2025)",
+    
+    "security_gaps_and_opportunities": {
+      "authentication_trust": {
+        "current_state": "Basic/Intermediate/Advanced",
+        "gaps": ["Missing BIMI", "No sender verification", "Weak domain reputation"],
+        "authentication_status": {
+          "dmarc_status": "monitoring_only/quarantine/reject/none",
+          "dmarc_pass_rate": "88.3%",
+          "spf_pass_rate": "92.7%",
+          "dkim_pass_rate": "91.8%",
+          "authentication_failures_7_days": 743
+        }
+      },
+      
+      "data_protection": {
+        "sensitive_data_types": ["PAN", "Aadhaar", "Credit Cards", "Health Records"],
+        "current_controls": ["None", "Basic scanning", "Manual review"],
+        "encryption_status": "None/TLS only/End-to-end available"
+      },
+      
+      "vendor_ecosystem": {
+        "critical_vendors": 47,
+        "monitored_vendors": 0,
+        "vendor_incidents_last_7_days": 3
+      },
+      
+      "compliance_requirements": {
+        "frameworks": ["CERT-In", "DPDP Act", "RBI", "SEBI", "Industry-specific"],
+        "current_gaps": ["Email retention", "Audit trails", "Data localization"],
+        "audit_findings": ["Email security not documented", "No incident response plan"],
+        "current_compliance_rate": "85%"
+      },
+      
+      "threat_landscape": {
+        "top_threats": ["BEC", "Ransomware", "Data theft", "Insider threats"],
+        "industry_specific_threats": ["Supply chain attacks", "APT groups"],
+        "incidents_last_7_days": ["Near miss wire transfer", "Executive impersonation"]
+      },
+      
+      "technology_environment": {
+        "email_platform": "Office 365/Google Workspace/On-premise Exchange",
+        "existing_tools": {
+          "siem": {
+            "product": "Splunk/QRadar/None",
+            "integration_status": "connected/available/none"
+          },
+          "other_security_tools": ["Firewall", "EDR", "DLP", "WAF"]
+        },
+        "integration_readiness": "API-ready/Limited/Manual only"
+      },
+      
+      "business_context": {
+        "digital_transformation_stage": "Early/Intermediate/Advanced",
+        "risk_appetite": "Conservative/Moderate/Aggressive",
+        "security_budget": "Limited/Adequate/Substantial",
+        "upcoming_initiatives": ["Cloud migration", "M&A activity", "Global expansion"]
+      },
+      
+      "training_and_culture": {
+        "last_security_training": "This week/Last week/Over a month ago/Never",
+        "departments_needing_training": ["Finance", "HR", "All"],
+        "training_completion_rate": "78%",
+        "security_culture_maturity": "Low/Medium/High"
+      },
+      
+      "advanced_capabilities": {
+        "threat_intelligence": {
+          "current_feeds": ["Basic IP reputation"],
+          "available_upgrades": ["Industry-specific intel", "Dark web monitoring"]
+        },
+        "automation_opportunities": [
+          "Auto-remediation for known threats",
+          "Automated user notifications",
+          "Dynamic allow/block lists"
+        ]
+      },
+      
+      "policy_framework": {
+        "missing_policies": ["Remote work security", "AI usage", "BYOD email"],
+        "outdated_policies": ["Password policy - 2 years old"],
+        "enforcement_gaps": ["USB blocking not enforced", "No email encryption mandate"]
+      }
+    }
+  },
+  
+  "diverse_test_scenarios": {
+    "scenario_1_financial_services": {
+      "organization_name": "SecureBank Financial Services",
+      "industry": "Financial Services",
+      "size": "Enterprise",
+      "security_gaps_and_opportunities": {
+        "data_protection": {
+          "sensitive_data_types": ["Account numbers", "PAN", "Transaction details"],
+          "current_controls": ["Basic DLP"],
+          "encryption_status": "TLS only"
+        },
+        "compliance_requirements": {
+          "frameworks": ["RBI", "CERT-In", "PCI DSS"],
+          "current_gaps": ["Transaction email encryption", "Cross-border data transfer"]
+        },
+        "threat_landscape": {
+          "top_threats": ["Wire transfer fraud", "Account takeover"],
+          "incidents_last_7_days": ["₹15L wire fraud attempt blocked"]
+        },
+        "vendor_ecosystem": {
+          "critical_vendors": 89,
+          "monitored_vendors": 12,
+          "vendor_incidents_last_7_days": 4
+        }
+      }
+    },
+    
+    "scenario_2_healthcare": {
+      "organization_name": "CareMax Hospital Network",
+      "industry": "Healthcare",
+      "size": "Enterprise",
+      "security_gaps_and_opportunities": {
+        "data_protection": {
+          "sensitive_data_types": ["Patient records", "Medical history", "Insurance data"],
+          "current_controls": ["None"],
+          "encryption_status": "None"
+        },
+        "vendor_ecosystem": {
+          "critical_vendors": 127,
+          "monitored_vendors": 0,
+          "vendor_incidents_last_7_days": 5
+        },
+        "compliance_requirements": {
+          "frameworks": ["HIPAA", "DPDP Act", "CERT-In"],
+          "current_gaps": ["PHI email handling", "Patient consent management"]
+        },
+        "business_context": {
+          "upcoming_initiatives": ["Telemedicine expansion", "Lab partner integration"]
+        }
+      }
+    },
+    
+    "scenario_3_manufacturing": {
+      "organization_name": "GlobalTech Manufacturing",
+      "industry": "Manufacturing",
+      "size": "Multinational",
+      "security_gaps_and_opportunities": {
+        "vendor_ecosystem": {
+          "critical_vendors": 234,
+          "monitored_vendors": 12,
+          "vendor_incidents_last_7_days": 8
+        },
+        "technology_environment": {
+          "email_platform": "Hybrid Exchange/Office 365",
+          "integration_readiness": "Limited"
+        },
+        "business_context": {
+          "upcoming_initiatives": ["Supply chain digitization", "IoT deployment"],
+          "risk_appetite": "Conservative"
+        },
+        "advanced_capabilities": {
+          "automation_opportunities": [
+            "Vendor risk scoring automation",
+            "Supply chain threat intelligence"
+          ]
+        }
+      }
+    },
+    
+    "scenario_4_retail": {
+      "organization_name": "QuickShop Retail Chain",
+      "industry": "Retail",
+      "size": "SMB",
+      "security_gaps_and_opportunities": {
+        "threat_landscape": {
+          "top_threats": ["Seasonal phishing", "Gift card fraud", "POS malware"],
+          "industry_specific_threats": ["Holiday season attacks"]
+        },
+        "business_context": {
+          "digital_transformation_stage": "Early",
+          "security_budget": "Limited",
+          "upcoming_initiatives": ["E-commerce expansion", "Mobile app launch"]
+        },
+        "training_and_culture": {
+          "last_security_training": "Never",
+          "departments_needing_training": ["Store managers", "Seasonal staff"],
+          "security_culture_maturity": "Low"
+        }
+      }
+    },
+    
+    "scenario_5_technology": {
+      "organization_name": "InnovateTech Solutions",
+      "industry": "Technology",
+      "size": "Enterprise",
+      "security_gaps_and_opportunities": {
+        "data_protection": {
+          "sensitive_data_types": ["Source code", "API keys", "Customer databases"],
+          "current_controls": ["Basic scanning"],
+          "encryption_status": "TLS only"
+        },
+        "technology_environment": {
+          "email_platform": "Google Workspace",
+          "existing_tools": {
+            "siem": {
+              "product": "Splunk",
+              "integration_status": "connected"
+            },
+            "other_security_tools": ["Advanced toolset"]
+          },
+          "integration_readiness": "API-ready"
+        },
+        "threat_landscape": {
+          "top_threats": ["IP theft", "Competitive espionage", "APT groups"],
+          "industry_specific_threats": ["Zero-day exploits", "Supply chain attacks"]
+        }
+      }
+    },
+    
+    "scenario_6_government": {
+      "organization_name": "State Infrastructure Department",
+      "industry": "Government",
+      "size": "Enterprise",
+      "security_gaps_and_opportunities": {
+        "compliance_requirements": {
+          "frameworks": ["CERT-In", "National Cyber Security Policy"],
+          "current_gaps": ["Classified information handling", "Citizen data protection"]
+        },
+        "business_context": {
+          "upcoming_initiatives": ["Digital India integration", "Citizen portal launch"],
+          "risk_appetite": "Conservative",
+          "security_budget": "Limited"
+        },
+        "policy_framework": {
+          "missing_policies": ["Classified email handling", "RTI request security"],
+          "enforcement_gaps": ["No mandatory encryption for sensitive data"]
+        }
+      }
+    },
+    
+    "scenario_7_education": {
+      "organization_name": "Premier University Network",
+      "industry": "Education",
+      "size": "Enterprise",
+      "security_gaps_and_opportunities": {
+        "data_protection": {
+          "sensitive_data_types": ["Student records", "Research data", "Financial aid info"],
+          "current_controls": ["None"]
+        },
+        "threat_landscape": {
+          "top_threats": ["Ransomware", "Student data theft", "Research IP theft"],
+          "incidents_last_7_days": ["Ransomware attack on sister institution"]
+        },
+        "technology_environment": {
+          "email_platform": "Mixed (Faculty: Outlook, Students: Gmail)",
+          "integration_readiness": "Limited"
+        },
+        "business_context": {
+          "upcoming_initiatives": ["Online learning platform", "International collaboration"],
+          "security_budget": "Limited"
+        }
+      }
+    }
+  }
+}
